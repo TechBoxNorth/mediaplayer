@@ -1,3 +1,44 @@
 * {
   margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: brown;
+  color: white;
+}
+
+.album-list {
+  width: 50%;
+  height: 100%;
+  border-right: 10px solid red;
+}
+
+.album {
+  max-height: 200px;
+  background-color: rgb(48, 62, 87);
+  color: white;
+  display: flex;
+  border-bottom: 6px solid black;
+}
+
+.album:first-of-type {
+  margin-top: 0px;
+}
+
+.list-info {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+
+.album .song {
+  font-weight: normal;
+}
+
+.list-image {
+  max-height: 200px;
 }
