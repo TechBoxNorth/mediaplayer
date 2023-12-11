@@ -17,6 +17,7 @@ header {
 
 main {
   display: flex;
+  align-items: flex-start;
   background-color: rgb(48, 62, 87);
 }
 
@@ -135,4 +136,37 @@ header .material-icons {
   background-color: rgb(32, 42, 59);
   height: 25px;
   width: 75%;
+}
+
+.controls {
+  /*background-color: aquamarine;*/
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.repeat {
+  font-size: 50px;
+  /*background-color: pink;*/
+  margin: 0 80px;
+}
+
+.shuffle {
+  font-size: 50px;
+  /*background-color: pink;*/
+  margin: 0 80px;
+}
+
+.rewind,
+.forward {
+  font-size: 65px;
+}
+
+.play {
+  font-size: 120px;
+  margin: 0 20px;
 }
